@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Service | Phelang Health Group</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Enquiries</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Book a Healthcare Service</h2>
+
+      <form action="https://formsubmit.co/PhelangHealth.24@gmail.com" method="POST" class="booking-form">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="box">
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="service">Service Type:</label>
+        <select id="service" name="service" required>
+          <option value="">-- Select Service --</option>
+          <option value="hygiene">Hygiene Support</option>
+          <option value="mobility">Mobility Support</option>
+          <option value="woundcare">Wound Care</option>
+          <option value="medication">Medication Management</option>
+          <option value="chronic">Chronic Illness Care</option>
+          <option value="post-op">Post-Operative Care</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+
+        <button type="submit">Submit Booking</button>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Phelang Health Group</p>
+  </footer>
+</body>
+</html>
